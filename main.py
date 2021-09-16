@@ -4,5 +4,5 @@ GDP = pd.read_csv(“https://media.githubusercontent.com/media/nickeubank/MIDS_D
 
 new_GDP=GDP[[“GDP per capita (constant 2010 US$)“, “Mortality rate, infant (per 1,000 live births)“, “Country Name”]]
 
+#plot mortality against GDP per capita
 new_GDP.plot(x=“Mortality rate, infant (per 1,000 live births)“,y=“GDP per capita (constant 2010 US$)“)
-
